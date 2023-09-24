@@ -9,16 +9,16 @@ import {
 } from "react-icons/fi";
 function Socialicons() {
   const socialLinks = [
-    { name: "Github", icon: <FiGithub />, link: "https://www.github.com" },
+    { name: "Github", icon: <FiGithub />, link: "https://github.com/THARMATT" },
     {
       name: "Youtube",
       icon: <FiYoutube />,
-      link: "",
+      link: "https://youtube.com/@nigam_sharma",
     },
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
-      link: "",
+      link: "https://www.linkedin.com/in/nigam-sharma",
     },
     {
       name: "Instagram",
@@ -28,7 +28,7 @@ function Socialicons() {
     {
       name: "Twitter",
       icon: <FiTwitter />,
-      link: "",
+      link: "https://twitter.com/nigamsharma_",
     },
   ];
   return (

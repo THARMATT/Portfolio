@@ -37,6 +37,16 @@ nav {
       font-size: var(--tsm1);
       counter-reset: nav-list;
       font-family: var(--fira-code);
+      &-button{
+        transition: 0.3s ease-in-out;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+      
+      &:hover{
+
+        transform: translateY(-3px);
+      }}
       &-list {
         display: flex;
         gap: 3rem;

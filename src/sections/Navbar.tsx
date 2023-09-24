@@ -27,7 +27,7 @@ function Navbar() {
           </ul>
           <div className="nav-items-button">
 
-          <Button text="Resume" link=""/>
+          <Button text="Resume" link="https://www.canva.com/design/DAFqYShe06I/QPRNgxnA-wBBlGFDkiEheg/view?utm_content=DAFqYShe06I&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"/>
           </div>
         </div>
       </div>

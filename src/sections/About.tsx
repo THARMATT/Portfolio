@@ -17,7 +17,7 @@ function About() {
           <p className="about-grid-info-text">
           Four-year Kabaddi team captain with junior and sub-junior victories. Achievements include a junior district-level bronze in Wushu Karate and success in badminton, table tennis, cricket, volleyball, and athletics. </p>
           <p className="about-grid-info-text">
-          I'm proficient in C, C++, and Java, but my true passion lies in web development. I'm particularly enthusiastic about mastering Full Stack web development to excel in this field.</p>
+          I am proficient in C, C++, and Java, but my true passion lies in web development. I am particularly enthusiastic about mastering Full Stack web development to excel in this field.</p>
           <ul className="about-grid-info-list">
             <li className="about-grid-info-list-item">React</li>
             <li className="about-grid-info-list-item">Express</li>

@@ -4,7 +4,7 @@
         font-family: var(--raleway);
         color: var(--lightest-slate);
         position: relative;
-    }h2{
+    h2{
         margin-bottom: 2rem;
         font-size: var(--tx2large);
         font-weight: 700;
@@ -23,7 +23,7 @@
             background-color: var(--lightest-navy);
             height: 2px;
             margin-left: 220px;
-        }
+        }}
     }
     &-grid{
         display:grid;

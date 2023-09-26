@@ -1,17 +1,26 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import Link from "next/link";
 import Logo from "@/components/Logo";
 import Button from "@/components/Button";
 function Navbar() {
+const [navbarVisible, setNavbarVisible] = useState(false)
+
   const sectionLinks = [
     { name: "About", link: "/#about" },
-    { name: "Experience", link: "/#expperience" },
+    { name: "Experience", link: "/#experience" },
     { name: "Work", link: "/#work" },
     { name: "Contact", link: "/#contact" },
   ];
+
+  useEffect(() => {
+window.addEventListener("scroll",()=>{
+  window.pageYOffset>100?setNavbarVisible(true):setNavbarVisible(false);
+})
+  }, [])
+  
   return (
     <nav>
-      <div className="wrapper">
+      <div className={`wrapper ${navbarVisible?"blur-nav":""}`}>
         <div className="brand">
           <Link href="">
             <Logo />

@@ -35,14 +35,18 @@
       padding: 1rem 3rem;
       font-size: var(--tsm1);
       font-family: var(--raleway);
-      border-radius: .2rem;
-      
+      border-radius: 0.2rem;
+
       cursor: pointer;
     }
-    &:hover{
-        transform: translateY(-6px);
-        color: var(--light-slate);
+    &:hover {
+      transform: translateY(-6px);
+      color: var(--light-slate);
     }
- 
+  }
+  @media screen and (max-width: 768px) {
+    &-text {
+      width: 90%;
+    }
   }
 }

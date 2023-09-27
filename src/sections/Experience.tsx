@@ -39,31 +39,31 @@ function Experience() {
           "Additionally, I've represented the company in client meetings",
         ],
       },
-    {
-      name: "Space Window",
-      role: "Frontend Developer",
-      url: "",
-      start: "Feburary 2023",
-      end: "August 2021",
-      shortDescription: [
-        "I work on commercial projects",
-        "Throughout my work, I have utilized various MERN stack technologies,Redux,Typescript",
-        "I also teach my juniors about basic web Development",
-        "Additionally, I've represented the company in client meetings",
-      ],
-    },
-    {
-      name: "InfoTechmon",
-      role: "Java Trainee",
-      url: "",
-      start: "August 2022",
-      end: "Sept 2022",
-      shortDescription: [
-        "I work on commercial projects",
-        "Throughout I developed my personality  ",
-        "Additionally, I've represented the company in client meetings",
-      ],
-    },
+    // {
+    //   name: "Space Window",
+    //   role: "Frontend Developer",
+    //   url: "",
+    //   start: "Feburary 2023",
+    //   end: "August 2021",
+    //   shortDescription: [
+    //     "I work on commercial projects",
+    //     "Throughout my work, I have utilized various MERN stack technologies,Redux,Typescript",
+    //     "I also teach my juniors about basic web Development",
+    //     "Additionally, I've represented the company in client meetings",
+    //   ],
+    // },
+    // {
+    //   name: "InfoTechmon",
+    //   role: "Java Trainee",
+    //   url: "",
+    //   start: "August 2022",
+    //   end: "Sept 2022",
+    //   shortDescription: [
+    //     "I work on commercial projects",
+    //     "Throughout I developed my personality  ",
+    //     "Additionally, I've represented the company in client meetings",
+    //   ],
+    // },
   ];
   return (
     <motion.div className="experience" id="experience"

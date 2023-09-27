@@ -19,15 +19,15 @@ const projectsData=[
          
         ],
         projectExternalLinks:{
-            github:"",
-            externalLink:"",
+            github:"https://github.com/THARMATT/Youtube.git",
+            externalLink:"https://youtube-sigma-six.vercel.app/",
         },
 
    },
    {
     image:"/Project2.png",
     projectName:"Food-Delivery-Website",
-    projectLink:"",
+    projectLink:"https://github.com/THARMATT/Food-Delivery-Application.git",
     projectDescription:"Explore my MERN-based food delivery project, featuring real-time tracking and a variety of cuisines ",
     projectTech:[
         "React",
@@ -39,15 +39,15 @@ const projectsData=[
      
     ],
     projectExternalLinks:{
-        github:"",
-        externalLink:"",
+        github:"https://github.com/THARMATT/Food-Delivery-Application.git",
+        externalLink:"https://github.com/THARMATT/Food-Delivery-Application.git",
     },
 
 },
 {
     image:"/Project3.png",
     projectName:"Instagram-Clone",
-    projectLink:"",
+    projectLink:"https://github.com/THARMATT/Instagram.git",
     projectDescription:"Crafted a responsive Instagram clone using React, MongoDB, Express, and Node.js to build APIs, showcasing my proficiency in full-stack development",
     projectTech:[
         "React",
@@ -62,8 +62,8 @@ const projectsData=[
      
     ],
     projectExternalLinks:{
-        github:"",
-        externalLink:"",
+        github:"https://github.com/THARMATT/Instagram.git",
+        externalLink:"https://github.com/THARMATT/Instagram.git",
     },
 
 },
@@ -116,7 +116,7 @@ const projectsData=[
                 </div>
               </div>
               <div className="project-info">
-                <p className="project-info-overline">Featured Project</p>
+                <p className="project-info-overline">Project</p>
                 <h3 className="project-info-title">{projectName}</h3>
                 <div className="project-info-description">
                   <p>{projectDescription}</p>

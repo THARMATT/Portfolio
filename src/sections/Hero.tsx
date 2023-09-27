@@ -51,7 +51,7 @@ function Hero() {
           ease: "easeInOut",
           delay: 1.65
         }}>
-        <Button text="What I Love" link="" />
+        <Button text="What I Love" link="https://youtube.com/@nigam_sharma" />
       </motion.div>
     </div>
   );

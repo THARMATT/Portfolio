@@ -41,8 +41,8 @@ function Hero() {
           ease: "easeInOut",
           delay: 1.5
         }}>
-        I&apos;m a Software Engineer who has keen interest in web development.
-        <br /> I Love to design and develop webites.
+        I&apos;m a Software Engineer who has keen interest in development.
+        <br /> I Love to design and develop web apps.
       </motion.p>
       <motion.div className="hero-button"   initial={{ opacity: 0, y: 5 }}
         animate={{ opacity: 1, y: 0 }}
@@ -51,7 +51,7 @@ function Hero() {
           ease: "easeInOut",
           delay: 1.65
         }}>
-        <Button text="What I Love" link="https://youtube.com/@nigam_sharma" />
+        <Button text="View My Resume!!" link="https://drive.google.com/file/d/1A6pTEiNeXgSCE-POAVAHUotcGWrr5OUi/view?usp=drivesdk"  />
       </motion.div>
     </div>
   );

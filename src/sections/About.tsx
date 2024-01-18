@@ -32,16 +32,14 @@ function About() {
             growth, ultimately achieving 93% in 12th grade (Non-Medical) at
             Garhi Higher Secondary.
           </p>
-          <p className="about-grid-info-text">
+          {/* <p className="about-grid-info-text">
             Four-year Kabaddi team captain with junior and sub-junior victories.
             Achievements include a junior district-level bronze in Wushu Karate
             and success in badminton, table tennis, cricket, volleyball, and
             athletics.{" "}
-          </p>
+          </p> */}
           <p className="about-grid-info-text">
-            I am proficient in C, C++, and Java, but my true passion lies in web
-            development. I am particularly enthusiastic about mastering Full
-            Stack web development to excel in this field.
+          Proficient in C, C++, and Java, my fervor lies in mastering Full Stack web development. Eager to excel in this dynamic field by combining programming expertise with the art of crafting immersive web experiences.
           </p>
           <ul className="about-grid-info-list">
             <li className="about-grid-info-list-item">React</li>
@@ -52,6 +50,7 @@ function About() {
             <li className="about-grid-info-list-item">HTML</li>
             <li className="about-grid-info-list-item">Next.js</li>
             <li className="about-grid-info-list-item">JavaScript</li>
+            <li className="about-grid-info-list-item">TypeScript</li>
           </ul>
         </div>
         <div className="about-grid-photo">

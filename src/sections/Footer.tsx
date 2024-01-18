@@ -8,6 +8,7 @@ import {
   FiLinkedin,
   FiTwitter,
 } from "react-icons/fi";
+import { SiLeetcode } from "react-icons/si";
 
 function Footer() {
 
@@ -24,9 +25,9 @@ function Footer() {
           link: "https://www.linkedin.com/in/nigam-sharma",
         },
         {
-          name: "Instagram",
-          icon: <FiInstagram />,
-          link: "",
+          name: "Leetcode",
+          icon: <SiLeetcode />,
+          link: "https://leetcode.com/nigam__sharma/",
         },
         {
           name: "Twitter",

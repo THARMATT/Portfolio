@@ -107,8 +107,8 @@ function Navbar() {
            transition={{duration:0.3,
            ease:"easeInOut",delay:0.6}}>
             <Button
-              text="Resume"
-              link="https://www.canva.com/design/DAFqYShe06I/QPRNgxnA-wBBlGFDkiEheg/view?utm_content=DAFqYShe06I&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+              text="Explore"
+              link="https://nigamsharma.hashnode.dev/"
             />
           </motion.div>
         </div>

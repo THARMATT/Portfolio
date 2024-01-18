@@ -23,7 +23,7 @@ function Experience() {
       shortDescription: [
         "I work on commercial projects",
         "Throughout my work, I have utilized various MERN stack technologies,Redux,Typescript",
-        "I also teach my juniors about basic web Development",
+        "I also guide my juniors and fellowmates about basic web Development",
         "Additionally, I've represented the company in client meetings",
       ],
     },
